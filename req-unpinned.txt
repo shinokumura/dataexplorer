@@ -1,0 +1,48 @@
+#aiohttp
+#async-timeout
+#attrs
+** brotli #secundary
+#cachetools
+#certifi
+#chardet
+** click #secundary
+* dash
+* dash-bootstrap-components
+* dash-core-components
+* dash-extensions
+* dash-html-components
+#dash-renderer
+** dash-table #secundary
+#decorator
+** Flask
+** Flask-Caching
+** Flask-Compress
+#fsspec
+#future
+#idna
+** itsdangerous
+** Jinja2
+** MarkupSafe
+#mkl-fft
+#mkl-random
+#mkl-service
+** more-itertools
+#multidict
+* numpy
+#oauthlib
+* pandas
+* plotly
+#pyasn1
+#pyasn1-modules
+** python-dateutil
+** pytz
+#PyYAML
+#requests
+#requests-oauthlib
+#retrying
+#rsa
+** six
+#typing-extensions
+* urllib3
+Werkzeug
+** yarl

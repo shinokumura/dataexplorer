@@ -1,0 +1,995 @@
+MT          Reaction            ExforSF3  comment
+1           (n,total)           TOT     -
+2           (n,el)              EL
+4           (n,inl)             INL
+18          (n,f)               F       
+102         (n,g)               G
+103         (n,p)               P
+104         (n,d)               D
+105         (n,t)               T
+106         (n,h)               HE3
+107         (n,a)               A
+27          (n,abs)             ABS
+16          (n,2n)              2N
+17          (n,3n)              3N
+37          (n,4n)              4N
+50          (n,n0)              -
+51          (n,n1)              -
+52          (n,n2)              -
+53          (n,n3)              -
+54          (n,n4)              -
+201         (n,xn)              X+N
+202         (n,xg)              X+G
+203         (n,xp)              X+P
+204         (n,xd)              X+D
+205         (n,xt)              X+D
+206         (n,xh)              X+HE3
+207         (n,xa)              X+A
+19          (n,0nf)             F       firstchance
+20          (n,1nf)             N+F     2ndchance
+21          (n,2nf)             2N+F    3rdchance
+1           (d,total)           TOT     -
+2           (d,el)              EL
+4           (d,inl)             INL
+18          (d,f)               F
+102         (d,g)               G
+103         (d,p)               P
+104         (d,d)               D
+105         (d,t)               T
+106         (d,h)               HE3
+107         (d,a)               A
+27          (d,abs)             ABS
+16          (d,2n)              2N
+17          (d,3n)              3N
+37          (d,4n)              4N
+50          (d,n0)              -
+51          (d,n1)              -
+52          (d,n2)              -
+201         (d,xn)              X+N
+202         (d,xg)              X+G
+203         (d,xp)              X+P
+204         (d,xd)              X+D
+205         (d,xt)              X+D
+206         (d,xh)              X+HE3
+207         (d,xa)              X+A
+1           (t,total)           TOT     -
+2           (t,el)          EL
+4           (t,n)               N
+18          (t,f)               F
+102         (t,g)               G
+103         (t,p)               P
+104         (t,d)               D
+105         (t,t)               T
+106         (t,h)               HE3
+107         (t,a)               A
+27          (t,abs)             ABS
+16          (t,2n)              2N
+17          (t,3n)              3N
+37          (t,4n)              4N
+50          (t,n0)              -
+51          (t,n1)              -
+52          (t,n2)              -
+201         (t,xn)              X+N
+202         (t,xg)              X+G
+203         (t,xp)              X+P
+204         (t,xd)              X+D
+205         (t,xt)              X+D
+206         (t,xh)              X+HE3
+207         (t,xa)              X+A
+1           (p,total)           TOT     -
+2           (p,el)              EL
+4           (p,n)               N
+18          (p,f)               F
+102         (p,g)               G
+103         (p,p)               P
+104         (p,d)               D
+105         (p,t)               T
+106         (p,h)               HE3
+107         (p,a)               A
+27          (p,abs)             ABS
+16          (p,2n)              2N
+17          (p,3n)              3N
+37          (p,4n)              4N
+50          (p,n0)              -
+51          (p,n1)              -
+52          (p,n2)              -
+201         (p,xn)              X+N
+202         (p,xg)              X+G
+203         (p,xp)              X+P
+204         (p,xd)              X+D
+205         (p,xt)              X+D
+206         (p,xh)              X+HE3
+207         (p,xa)              X+A
+1           (a,total)           TOT     -
+2           (a,el)              EL
+4           (a,n)               N
+18          (a,f)               F
+102         (a,g)               G
+103         (a,p)               P
+104         (a,d)               D
+105         (a,t)               T
+106         (a,h)               HE3
+107         (a,a)               A
+27          (a,abs)             ABS
+16          (a,2n)              2N
+17          (a,3n)              3N
+37          (a,4n)              4N
+50          (a,n0)              -
+51          (a,n1)              -
+52          (a,n2)              -
+201         (a,xn)              X+N
+202         (a,xg)              X+G
+203         (a,xp)              X+P
+204         (a,xd)              X+D
+205         (a,xt)              X+D
+206         (a,xh)              X+HE3
+207         (a,xa)              X+A
+1           (h,total)           TOT     -
+2           (h,el)              EL
+4           (h,n)               N
+18          (h,f)               F
+102         (h,g)               G
+103         (h,p)               P
+104         (h,d)               D
+105         (h,t)               T
+106         (h,h)               HE3
+107         (h,a)               A
+27          (h,abs)             ABS
+16          (h,2n)              2N
+17          (h,3n)              3N
+37          (h,4n)              4N
+50          (h,n0)              -
+51          (h,n1)              -
+52          (h,n2)              -
+201         (h,xn)              X+N
+202         (h,xg)              X+G
+203         (h,xp)              X+P
+204         (h,xd)              X+D
+205         (h,xt)              X+D
+206         (h,xh)              X+HE3
+207         (h,xa)              X+A
+1           (g,total)           TOT     -
+2           (g,el)              EL
+4           (g,n)               N
+18          (g,f)               F
+102         (g,g)               G
+103         (g,p)               P
+104         (g,d)               D
+105         (g,t)               T
+106         (g,h)               HE3
+107         (g,a)               A
+27          (g,abs)             ABS
+16          (g,2n)              2N
+17          (g,3n)              3N
+37          (g,4n)              4N
+50          (g,n0)              -
+51          (g,n1)              -
+52          (g,n2)              -
+201         (g,xn)              X+N
+202         (g,xg)              X+G
+203         (g,xp)              X+P
+204         (g,xd)              X+D
+205         (g,xt)              X+D
+206         (g,xh)              X+HE3
+207         (g,xa)              X+A
+
+# # ----------------
+# ##############  n
+# 1           (n,total)           TOT     -
+# 2           (n,el)          EL
+# 3           (n,nonel)       NON
+# 4           (n,inl)       INL
+# 5           (n,x)               x
+# #10          (n,contin.)         -       CON,SIG
+# 11          (n,2nd)             2N+D
+# #12-15       Unassigned.         -
+# 16          (n,2n)              2N
+# 17          (n,3n)              3N
+# 18          (n,f)               F
+# 19          (n,0f)              FIS       firstchance
+# 20          (n,nf)              N+F     2ndchance
+# 21          (n,2nf)             2N+F    3rdchance
+# 22          (n,na)              N+A
+# 23          (n,n3a)             N+3A
+# 24          (n,2na)             2N+A
+# 25          (n,3na)             3N+A
+# 27          (n,abs)             ABS
+# 28          (n,np)              N+P
+# 29          (n,n2a)             N+2A
+# 30          (n,2n2a)            2N+2A
+# 32          (n,nd)              N+D
+# 33          (n,nt)              N+T
+# 34          (n,nh)              N+H
+# 35          (n,nd2a)            N+D+2A
+# 36          (n,nt2a)            N+T+2A
+# 37          (n,4n)              4N
+# 38          (n,3nf)             3N+F
+# 41          (n,2np)             2N+P
+# 42          (n,3np)             3N+P
+# #43          (Unassigned)        -
+# 44          (n,n2p)             N+2P
+# 45          (n,npa)             N+P+A
+# 50          (n,n0)              -
+# 51          (n,n1)              -
+# 52          (n,n2)              -
+# 90          (n,n40)             -
+# 91          (n,nc)              -
+# #92-100      (Unassigned)        -
+# #101         (n,disap)           -
+# 102         (n,g)               G
+# 103         (n,p)               P
+# 104         (n,d)               D
+# 105         (n,t)               T
+# 106         (n,h)               HE3
+# 107         (n,a)               A
+# 108         (n,2a)              2A
+# 109         (n,3a)              3A
+# #110         (Unassigned)        -
+# 111         (n,2p)              2P
+# 112         (n,pa)              P+A
+# 113         (n,t2a)             T+2A
+# 114         (n,d2a)             D+2A
+# 115         (n,pd)              P+D
+# 116         (n,pt)              P+T
+# 117         (n,da)              D+A
+# #118-119     (Unassigned)        -
+# #121-150     (Unassigned)        -
+# 151         (n,RES)             -
+# 152         (n,5n)              5N
+# 153         (n,6n)              6N
+# 154         (n,2nt)             2N+T
+# 155         (n,ta)              T+A
+# 156         (n,4np)             4N+P
+# 157         (n,3nd)             3N+D
+# 158         (n,n'da)            -
+# 159         (n,2npa)            2N+P+A
+# 160         (n,7n)              7N
+# 161         (n,8n)              8N
+# 162         (n,5np)             5N+P
+# 163         (n,6np)             6N+P
+# 164         (n,7np)             7N+P
+# 165         (n,4na)             4N+A
+# 166         (n,5na)             5N+A
+# 167         (n,6na)             6N+A
+# 168         (n,7na)             7N+A
+# 169         (n,4nd)             4N+D
+# 170         (n,5nd)             5N+D
+# 171         (n,6nd)             6N+D
+# 172         (n,3nt)             3N+T
+# 173         (n,4nt)             4N+T
+# 174         (n,5nt)             5N+T
+# 175         (n,6nt)             6N+T
+# 176         (n,2nh)             2N+HE3
+# 177         (n,3nh)             3N+HE3
+# 178         (n,4nh)             4N+HE3
+# 179         (n,3n2p)            3N+2P
+# 180         (n,3n2a)            3N+2
+# 181         (n,3npa)            3N+P+A
+# 182         (n,dt)              D+T
+# 183         (n,n'pd)            -
+# 184         (n,n'pt)            -
+# 185         (n,n'dt)            -
+# 186         (n,n'ph)            -
+# 187         (n,n'dh)            -
+# 188         (n,n'th)            -
+# 189         (n,n'ta)            -  
+# 190         (n,2n2p)            2N+2P
+# 191         (n,ph)              P+HE3
+# 192         (n,dh)              D+HE
+# 193         (n,ha)              HE+A
+# 194         (n,4n2p)            4N+2P
+# 195         (n,4n2a)            4N+2a 
+# 196         (n,4npa)            4N+P+A
+# 197         (n,3p)              3P
+# 198         (n,n'3p)            -
+# 199         (n,3n2pa)           3N+2P+A
+# 200         (n,5n2p)            5N+2P
+# 201         (n,xn)              X+N
+# 202         (n,xg)              X+G
+# 203         (n,xp)              X+P
+# 204         (n,xd)              X+D
+# 205         (n,xt)              X+D
+# 206         (n,xh)              X+HE3
+# 207         (n,xa)              X+A
+# ######## P
+# 1           (p,total)           TOT     -
+# 2           (p,el)          EL
+# 3           (p,nonel)       NON
+# 4           (p,n)               N
+# 5           (p,x)               x
+# #10          (p,contin.)         -       CON,SIG
+# 11          (p,2nd)             2N+D
+# #12-15       Unassigned.         -
+# 16          (p,2n)              2N
+# 17          (p,3n)              3N
+# 18          (p,f)               F
+# 19          (p,0f)              FIS       firstchance
+# 20          (p,nf)              N+F     2ndchance
+# 21          (p,2nf)             2N+F    3rdchance
+# 22          (p,na)              N+A
+# 23          (p,n3a)             N+3A
+# 24          (p,2na)             2N+A
+# 25          (p,3na)             3N+A
+# 27          (p,abs)             ABS
+# 28          (p,np)              N+P
+# 29          (p,n2a)             N+2A
+# 30          (p,2n2a)            2N+2A
+# 32          (p,nd)              N+D
+# 33          (p,nt)              N+T
+# 34          (p,nh)              N+H
+# 35          (p,nd2a)            N+D+2A
+# 36          (p,nt2a)            N+T+2A
+# 37          (p,4n)              4N
+# 38          (p,3nf)             3N+F
+# 41          (p,2np)             2N+P
+# 42          (p,3np)             3N+P
+# #43          (Unassigned)        -
+# 44          (p,n2p)             N+2P
+# 45          (p,npa)             N+P+A
+# 50          (p,n0)              -
+# 51          (p,n1)              -
+# 52          (p,n2)              -
+# 90          (p,n40)             -
+# 91          (p,nc)              -
+# #92-100      (Unassigned)        -
+# #101         (p,disap)           -
+# 102         (p,g)               G
+# 103         (p,p)               P
+# 104         (p,d)               D
+# 105         (p,t)               T
+# 106         (p,h)               HE3
+# 107         (p,a)               A
+# 108         (p,2a)              2A
+# 109         (p,3a)              3A
+# #110         (Unassigned)        -
+# 111         (p,2p)              2P
+# 112         (p,pa)              P+A
+# 113         (p,t2a)             T+2A
+# 114         (p,d2a)             D+2A
+# 115         (p,pd)              P+D
+# 116         (p,pt)              P+T
+# 117         (p,da)              D+A
+# #118-119     (Unassigned)        -
+# #121-150     (Unassigned)        -
+# 151         (p,RES)             -
+# 152         (p,5n)              5N
+# 153         (p,6n)              6N
+# 154         (p,2nt)             2N+T
+# 155         (p,ta)              T+A
+# 156         (p,4np)             4N+P
+# 157         (p,3nd)             3N+D
+# 158         (p,n'da)            -
+# 159         (p,2npa)            2N+P+A
+# 160         (p,7n)              7N
+# 161         (p,8n)              8N
+# 162         (p,5np)             5N+P
+# 163         (p,6np)             6N+P
+# 164         (p,7np)             7N+P
+# 165         (p,4na)             4N+A
+# 166         (p,5na)             5N+A
+# 167         (p,6na)             6N+A
+# 168         (p,7na)             7N+A
+# 169         (p,4nd)             4N+D
+# 170         (p,5nd)             5N+D
+# 171         (p,6nd)             6N+D
+# 172         (p,3nt)             3N+T
+# 173         (p,4nt)             4N+T
+# 174         (p,5nt)             5N+T
+# 175         (p,6nt)             6N+T
+# 176         (p,2nh)             2N+HE3
+# 177         (p,3nh)             3N+HE3
+# 178         (p,4nh)             4N+HE3
+# 179         (p,3n2p)            3N+2P
+# 180         (p,3n2a)            3N+2
+# 181         (p,3npa)            3N+P+A
+# 182         (p,dt)              D+T
+# 183         (p,n'pd)            -
+# 184         (p,n'pt)            -
+# 185         (p,n'dt)            -
+# 186         (p,n'ph)            -
+# 187         (p,n'dh)            -
+# 188         (p,n'th)            -
+# 189         (p,n'ta)            -  
+# 190         (p,2n2p)            2N+2P
+# 191         (p,ph)              P+HE3
+# 192         (p,dh)              D+HE
+# 193         (p,ha)              HE+A
+# 194         (p,4n2p)            4N+2P
+# 195         (p,4n2a)            4N+2a 
+# 196         (p,4npa)            4N+P+A
+# 197         (p,3p)              3P
+# 198         (p,n'3p)            -
+# 199         (p,3n2pa)           3N+2P+A
+# 200         (p,5n2p)            5N+2P
+# 201         (p,xn)              X+N
+# 202         (p,xg)              X+G
+# 203         (p,xp)              X+P
+# 204         (p,xd)              X+D
+# 205         (p,xt)              X+D
+# 206         (p,xh)              X+HE3
+# 207         (p,xa)              X+A
+# ############ d
+# 1           (d,total)           TOT     -
+# 2           (d,el)          EL
+# 3           (d,nonel)       NON
+# 4           (d,n)               INL
+# 5           (d,x)               x
+# #10          (d,contin.)         -       CON,SIG
+# 11          (d,2nd)             2N+D
+# #12-15       Unassigned.         -
+# 16          (d,2n)              2N
+# 17          (d,3n)              3N
+# 18          (d,f)               F
+# 19          (d,0f)              FIS       firstchance
+# 20          (d,nf)              N+F     2ndchance
+# 21          (d,2nf)             2N+F    3rdchance
+# 22          (d,na)              N+A
+# 23          (d,n3a)             N+3A
+# 24          (d,2na)             2N+A
+# 25          (d,3na)             3N+A
+# 27          (d,abs)             ABS
+# 28          (d,np)              N+P
+# 29          (d,n2a)             N+2A
+# 30          (d,2n2a)            2N+2A
+# 32          (d,nd)              N+D
+# 33          (d,nt)              N+T
+# 34          (d,nh)              N+H
+# 35          (d,nd2a)            N+D+2A
+# 36          (d,nt2a)            N+T+2A
+# 37          (d,4n)              4N
+# 38          (d,3nf)             3N+F
+# 41          (d,2np)             2N+P
+# 42          (d,3np)             3N+P
+# #43          (Unassigned)        -
+# 44          (d,n2p)             N+2P
+# 45          (d,npa)             N+P+A
+# 50          (d,n0)              -
+# 51          (d,n1)              -
+# 52          (d,n2)              -
+# 90          (d,n40)             -
+# 91          (d,nc)              -
+# #92-100      (Unassigned)        -
+# #101         (d,disap)           -
+# 102         (d,g)               G
+# 103         (d,p)               P
+# 104         (d,d)               D
+# 105         (d,t)               T
+# 106         (d,h)               HE3
+# 107         (d,a)               A
+# 108         (d,2a)              2A
+# 109         (d,3a)              3A
+# #110         (Unassigned)        -
+# 111         (d,2p)              2P
+# 112         (d,pa)              P+A
+# 113         (d,t2a)             T+2A
+# 114         (d,d2a)             D+2A
+# 115         (d,pd)              P+D
+# 116         (d,pt)              P+T
+# 117         (d,da)              D+A
+# #118-119     (Unassigned)        -
+# #121-150     (Unassigned)        -
+# 151         (d,RES)             -
+# 152         (d,5n)              5N
+# 153         (d,6n)              6N
+# 154         (d,2nt)             2N+T
+# 155         (d,ta)              T+A
+# 156         (d,4np)             4N+P
+# 157         (d,3nd)             3N+D
+# 158         (d,n'da)            -
+# 159         (d,2npa)            2N+P+A
+# 160         (d,7n)              7N
+# 161         (d,8n)              8N
+# 162         (d,5np)             5N+P
+# 163         (d,6np)             6N+P
+# 164         (d,7np)             7N+P
+# 165         (d,4na)             4N+A
+# 166         (d,5na)             5N+A
+# 167         (d,6na)             6N+A
+# 168         (d,7na)             7N+A
+# 169         (d,4nd)             4N+D
+# 170         (d,5nd)             5N+D
+# 171         (d,6nd)             6N+D
+# 172         (d,3nt)             3N+T
+# 173         (d,4nt)             4N+T
+# 174         (d,5nt)             5N+T
+# 175         (d,6nt)             6N+T
+# 176         (d,2nh)             2N+HE3
+# 177         (d,3nh)             3N+HE3
+# 178         (d,4nh)             4N+HE3
+# 179         (d,3n2p)            3N+2P
+# 180         (d,3n2a)            3N+2
+# 181         (d,3npa)            3N+P+A
+# 182         (d,dt)              D+T
+# 183         (d,n'pd)            -
+# 184         (d,n'pt)            -
+# 185         (d,n'dt)            -
+# 186         (d,n'ph)            -
+# 187         (d,n'dh)            -
+# 188         (d,n'th)            -
+# 189         (d,n'ta)            -  
+# 190         (d,2n2p)            2N+2P
+# 191         (d,ph)              P+HE3
+# 192         (d,dh)              D+HE
+# 193         (d,ha)              HE+A
+# 194         (d,4n2p)            4N+2P
+# 195         (d,4n2a)            4N+2a 
+# 196         (d,4npa)            4N+P+A
+# 197         (d,3p)              3P
+# 198         (d,n'3p)            -
+# 199         (d,3n2pa)           3N+2P+A
+# 200         (d,5n2p)            5N+2P
+# 201         (d,xn)              X+N
+# 202         (d,xg)              X+G
+# 203         (d,xp)              X+P
+# 204         (d,xd)              X+D
+# 205         (d,xt)              X+D
+# 206         (d,xh)              X+HE3
+# 207         (d,xa)              X+A
+# ######### t
+# 1           (t,total)           TOT     -
+# 2           (t,el)          EL
+# 3           (t,nonel)       NON
+# 4           (t,n)               INL
+# #5           (t,anything)        x
+# #10          (t,contin.)         -       CON,SIG
+# 11          (t,2nd)             2N+D
+# #12-15       Unassigned.         -
+# 16          (t,2n)              2N
+# 17          (t,3n)              3N
+# 18          (t,f)               F
+# 19          (t,0f)              FIS       firstchance
+# 20          (t,nf)              N+F     2ndchance
+# 21          (t,2nf)             2N+F    3rdchance
+# 22          (t,na)              N+A
+# 23          (t,n3a)             N+3A
+# 24          (t,2na)             2N+A
+# 25          (t,3na)             3N+A
+# 27          (t,abs)             ABS
+# 28          (t,np)              N+P
+# 29          (t,n2a)             N+2A
+# 30          (t,2n2a)            2N+2A
+# 32          (t,nd)              N+D
+# 33          (t,nt)              N+T
+# 34          (t,nh)              N+H
+# 35          (t,nd2a)            N+D+2A
+# 36          (t,nt2a)            N+T+2A
+# 37          (t,4n)              4N
+# 38          (t,3nf)             3N+F
+# 41          (t,2np)             2N+P
+# 42          (t,3np)             3N+P
+# #43          (Unassigned)        -
+# 44          (t,n2p)             N+2P
+# 45          (t,npa)             N+P+A
+# 50          (t,n0)              -
+# 51          (t,n1)              -
+# 52          (t,n2)              -
+# 90          (t,n40)             -
+# 91          (t,nc)              -
+# #92-100      (Unassigned)        -
+# #101         (t,disap)           -
+# 102         (t,g)               G
+# 103         (t,p)               P
+# 104         (t,d)               D
+# 105         (t,t)               T
+# 106         (t,h)               HE3
+# 107         (t,a)               A
+# 108         (t,2a)              2A
+# 109         (t,3a)              3A
+# #110         (Unassigned)        -
+# 111         (t,2p)              2P
+# 112         (t,pa)              P+A
+# 113         (t,t2a)             T+2A
+# 114         (t,d2a)             D+2A
+# 115         (t,pd)              P+D
+# 116         (t,pt)              P+T
+# 117         (t,da)              D+A
+# #118-119     (Unassigned)        -
+# #121-150     (Unassigned)        -
+# 151         (t,RES)             -
+# 152         (t,5n)              5N
+# 153         (t,6n)              6N
+# 154         (t,2nt)             2N+T
+# 155         (t,ta)              T+A
+# 156         (t,4np)             4N+P
+# 157         (t,3nd)             3N+D
+# 158         (t,n'da)            -
+# 159         (t,2npa)            2N+P+A
+# 160         (t,7n)              7N
+# 161         (t,8n)              8N
+# 162         (t,5np)             5N+P
+# 163         (t,6np)             6N+P
+# 164         (t,7np)             7N+P
+# 165         (t,4na)             4N+A
+# 166         (t,5na)             5N+A
+# 167         (t,6na)             6N+A
+# 168         (t,7na)             7N+A
+# 169         (t,4nd)             4N+D
+# 170         (t,5nd)             5N+D
+# 171         (t,6nd)             6N+D
+# 172         (t,3nt)             3N+T
+# 173         (t,4nt)             4N+T
+# 174         (t,5nt)             5N+T
+# 175         (t,6nt)             6N+T
+# 176         (t,2nh)             2N+HE3
+# 177         (t,3nh)             3N+HE3
+# 178         (t,4nh)             4N+HE3
+# 179         (t,3n2p)            3N+2P
+# 180         (t,3n2a)            3N+2
+# 181         (t,3npa)            3N+P+A
+# 182         (t,dt)              D+T
+# 183         (t,n'pd)            -
+# 184         (t,n'pt)            -
+# 185         (t,n'dt)            -
+# 186         (t,n'ph)            -
+# 187         (t,n'dh)            -
+# 188         (t,n'th)            -
+# 189         (t,n'ta)            -  
+# 190         (t,2n2p)            2N+2P
+# 191         (t,ph)              P+HE3
+# 192         (t,dh)              D+HE
+# 193         (t,ha)              HE+A
+# 194         (t,4n2p)            4N+2P
+# 195         (t,4n2a)            4N+2a 
+# 196         (t,4npa)            4N+P+A
+# 197         (t,3p)              3P
+# 198         (t,n'3p)            -
+# 199         (t,3n2pa)           3N+2P+A
+# 200         (t,5n2p)            5N+2P
+# 201         (t,xn)              X+N
+# 202         (t,xg)              X+G
+# 203         (t,xp)              X+P
+# 204         (t,xd)              X+D
+# 205         (t,xt)              X+D
+# 206         (t,xh)              X+HE3
+# 207         (t,xa)              X+A
+# #     a
+# 1           (a,total)           TOT     -
+# 2           (a,el)          EL
+# 3           (a,nonel)       NON
+# 4           (a,n)               INL
+# 5           (a,x)               x
+# #10          (a,contin.)         -       CON,SIG
+# 11          (a,2nd)             2N+D
+# #12-15       Unassigned.         -
+# 16          (a,2n)              2N
+# 17          (a,3n)              3N
+# 18          (a,f)               F
+# 19          (a,0f)              FIS       firstchance
+# 20          (a,nf)              N+F     2ndchance
+# 21          (a,2nf)             2N+F    3rdchance
+# 22          (a,na)              N+A
+# 23          (a,n3a)             N+3A
+# 24          (a,2na)             2N+A
+# 25          (a,3na)             3N+A
+# 27          (a,abs)             ABS
+# 28          (a,np)              N+P
+# 29          (a,n2a)             N+2A
+# 30          (a,2n2a)            2N+2A
+# 32          (a,nd)              N+D
+# 33          (a,nt)              N+T
+# 34          (a,nh)              N+H
+# 35          (a,nd2a)            N+D+2A
+# 36          (a,nt2a)            N+T+2A
+# 37          (a,4n)              4N
+# 38          (a,3nf)             3N+F
+# 41          (a,2np)             2N+P
+# 42          (a,3np)             3N+P
+# #43          (Unassigned)        -
+# 44          (a,n2p)             N+2P
+# 45          (a,npa)             N+P+A
+# 50          (a,n0)              -
+# 51          (a,n1)              -
+# 52          (a,n2)              -
+# 90          (a,n40)             -
+# 91          (a,nc)              -
+# #92-100      (Unassigned)        -
+# #101         (a,disap)           -
+# 102         (a,g)               G
+# 103         (a,p)               P
+# 104         (a,d)               D
+# 105         (a,t)               T
+# 106         (a,h)               HE3
+# 107         (a,a)               A
+# 108         (a,2a)              2A
+# 109         (a,3a)              3A
+# #110         (Unassigned)        -
+# 111         (a,2p)              2P
+# 112         (a,pa)              P+A
+# 113         (a,t2a)             T+2A
+# 114         (a,d2a)             D+2A
+# 115         (a,pd)              P+D
+# 116         (a,pt)              P+T
+# 117         (a,da)              D+A
+# #118-119     (Unassigned)        -
+# #121-150     (Unassigned)        -
+# 151         (a,RES)             -
+# 152         (a,5n)              5N
+# 153         (a,6n)              6N
+# 154         (a,2nt)             2N+T
+# 155         (a,ta)              T+A
+# 156         (a,4np)             4N+P
+# 157         (a,3nd)             3N+D
+# 158         (a,n'da)            -
+# 159         (a,2npa)            2N+P+A
+# 160         (a,7n)              7N
+# 161         (a,8n)              8N
+# 162         (a,5np)             5N+P
+# 163         (a,6np)             6N+P
+# 164         (a,7np)             7N+P
+# 165         (a,4na)             4N+A
+# 166         (a,5na)             5N+A
+# 167         (a,6na)             6N+A
+# 168         (a,7na)             7N+A
+# 169         (a,4nd)             4N+D
+# 170         (a,5nd)             5N+D
+# 171         (a,6nd)             6N+D
+# 172         (a,3nt)             3N+T
+# 173         (a,4nt)             4N+T
+# 174         (a,5nt)             5N+T
+# 175         (a,6nt)             6N+T
+# 176         (a,2nh)             2N+HE3
+# 177         (a,3nh)             3N+HE3
+# 178         (a,4nh)             4N+HE3
+# 179         (a,3n2p)            3N+2P
+# 180         (a,3n2a)            3N+2
+# 181         (a,3npa)            3N+P+A
+# 182         (a,dt)              D+T
+# 183         (a,n'pd)            -
+# 184         (a,n'pt)            -
+# 185         (a,n'dt)            -
+# 186         (a,n'ph)            -
+# 187         (a,n'dh)            -
+# 188         (a,n'th)            -
+# 189         (a,n'ta)            -  
+# 190         (a,2n2p)            2N+2P
+# 191         (a,ph)              P+HE3
+# 192         (a,dh)              D+HE
+# 193         (a,ha)              HE+A
+# 194         (a,4n2p)            4N+2P
+# 195         (a,4n2a)            4N+2a 
+# 196         (a,4npa)            4N+P+A
+# 197         (a,3p)              3P
+# 198         (a,n'3p)            -
+# 199         (a,3n2pa)           3N+2P+A
+# 200         (a,5n2p)            5N+2P
+# 201         (a,xn)              X+N
+# 202         (a,xg)              X+G
+# 203         (a,xp)              X+P
+# 204         (a,xd)              X+D
+# 205         (a,xt)              X+D
+# 206         (a,xh)              X+HE3
+# 207         (a,xa)              X+A
+# ########## g
+# 1           (g,total)           TOT     -
+# 2           (g,el)          EL
+# 3           (g,nonel)       NON
+# 4           (g,n)               INL
+# #5           (g,anything)        x
+# #10          (g,contin.)         -       CON,SIG
+# 11          (g,2nd)             2N+D
+# #12-15       Unassigned.         -
+# 16          (g,2n)              2N
+# 17          (g,3n)              3N
+# 18          (g,f)               F
+# 19          (g,0f)              FIS       firstchance
+# 20          (g,nf)              N+F     2ndchance
+# 21          (g,2nf)             2N+F    3rdchance
+# 22          (g,na)              N+A
+# 23          (g,n3a)             N+3A
+# 24          (g,2na)             2N+A
+# 25          (g,3na)             3N+A
+# 27          (g,abs)             ABS
+# 28          (g,np)              N+P
+# 29          (g,n2a)             N+2A
+# 30          (g,2n2a)            2N+2A
+# 32          (g,nd)              N+D
+# 33          (g,nt)              N+T
+# 34          (g,nh)              N+H
+# 35          (g,nd2a)            N+D+2A
+# 36          (g,nt2a)            N+T+2A
+# 37          (g,4n)              4N
+# 38          (g,3nf)             3N+F
+# 41          (g,2np)             2N+P
+# 42          (g,3np)             3N+P
+# #43          (Unassigned)        -
+# 44          (g,n2p)             N+2P
+# 45          (g,npa)             N+P+A
+# 50          (g,n0)              -
+# 51          (g,n1)              -
+# 52          (g,n2)              -
+# 90          (g,n40)             -
+# 91          (g,nc)              -
+# #92-100      (Unassigned)        -
+# #101         (g,disap)           -
+# 102         (g,g)               G
+# 103         (g,p)               P
+# 104         (g,d)               D
+# 105         (g,t)               T
+# 106         (g,h)               HE3
+# 107         (g,a)               A
+# 108         (g,2a)              2A
+# 109         (g,3a)              3A
+# #110         (Unassigned)        -
+# 111         (g,2p)              2P
+# 112         (g,pa)              P+A
+# 113         (g,t2a)             T+2A
+# 114         (g,d2a)             D+2A
+# 115         (g,pd)              P+D
+# 116         (g,pt)              P+T
+# 117         (g,da)              D+A
+# #118-119     (Unassigned)        -
+# #121-150     (Unassigned)        -
+# 151         (g,RES)             -
+# 152         (g,5n)              5N
+# 153         (g,6n)              6N
+# 154         (g,2nt)             2N+T
+# 155         (g,ta)              T+A
+# 156         (g,4np)             4N+P
+# 157         (g,3nd)             3N+D
+# 158         (g,n'da)            -
+# 159         (g,2npa)            2N+P+A
+# 160         (g,7n)              7N
+# 161         (g,8n)              8N
+# 162         (g,5np)             5N+P
+# 163         (g,6np)             6N+P
+# 164         (g,7np)             7N+P
+# 165         (g,4na)             4N+A
+# 166         (g,5na)             5N+A
+# 167         (g,6na)             6N+A
+# 168         (g,7na)             7N+A
+# 169         (g,4nd)             4N+D
+# 170         (g,5nd)             5N+D
+# 171         (g,6nd)             6N+D
+# 172         (g,3nt)             3N+T
+# 173         (g,4nt)             4N+T
+# 174         (g,5nt)             5N+T
+# 175         (g,6nt)             6N+T
+# 176         (g,2nh)             2N+HE3
+# 177         (g,3nh)             3N+HE3
+# 178         (g,4nh)             4N+HE3
+# 179         (g,3n2p)            3N+2P
+# 180         (g,3n2a)            3N+2
+# 181         (g,3npa)            3N+P+A
+# 182         (g,dt)              D+T
+# 183         (g,n'pd)            -
+# 184         (g,n'pt)            -
+# 185         (g,n'dt)            -
+# 186         (g,n'ph)            -
+# 187         (g,n'dh)            -
+# 188         (g,n'th)            -
+# 189         (g,n'ta)            -  
+# 190         (g,2n2p)            2N+2P
+# 191         (g,ph)              P+HE3
+# 192         (g,dh)              D+HE
+# 193         (g,ha)              HE+A
+# 194         (g,4n2p)            4N+2P
+# 195         (g,4n2a)            4N+2a 
+# 196         (g,4npa)            4N+P+A
+# 197         (g,3p)              3P
+# 198         (g,n'3p)            -
+# 199         (g,3n2pa)           3N+2P+A
+# 200         (g,5n2p)            5N+2P
+# 201         (g,xn)              X+N
+# 202         (g,xg)              X+G
+# 203         (g,xp)              X+P
+# 204         (g,xd)              X+D
+# 205         (g,xt)              X+D
+# 206         (g,xh)              X+HE3
+# 207         (g,xa)              X+A
+# ########## h
+# 1           (h,total)           TOT     -
+# 2           (h,el)          EL
+# 3           (h,nonel)       NON
+# 4           (h,n)               INL
+# 5           (h,x)               x
+# #10          (h,contin.)         -       CON,SIG
+# 11          (h,2nd)             2N+D
+# #12-15       Unassigned.         -
+# 16          (h,2n)              2N
+# 17          (h,3n)              3N
+# 18          (h,f)               F
+# 19          (h,0f)              FIS       firstchance
+# 20          (h,nf)              N+F     2ndchance
+# 21          (h,2nf)             2N+F    3rdchance
+# 22          (h,na)              N+A
+# 23          (h,n3a)             N+3A
+# 24          (h,2na)             2N+A
+# 25          (h,3na)             3N+A
+# 27          (h,abs)             ABS
+# 28          (h,np)              N+P
+# 29          (h,n2a)             N+2A
+# 30          (h,2n2a)            2N+2A
+# 32          (h,nd)              N+D
+# 33          (h,nt)              N+T
+# 34          (h,nh)              N+H
+# 35          (h,nd2a)            N+D+2A
+# 36          (h,nt2a)            N+T+2A
+# 37          (h,4n)              4N
+# 38          (h,3nf)             3N+F
+# 41          (h,2np)             2N+P
+# 42          (h,3np)             3N+P
+# #43          (Unassigned)        -
+# 44          (h,n2p)             N+2P
+# 45          (h,npa)             N+P+A
+# 50          (h,n0)              -
+# 51          (h,n1)              -
+# 52          (h,n2)              -
+# 90          (h,n40)             -
+# 91          (h,nc)              -
+# #92-100      (Unassigned)        -
+# #101         (h,disap)           -
+# 102         (h,g)               G
+# 103         (h,p)               P
+# 104         (h,d)               D
+# 105         (h,t)               T
+# 106         (h,h)               HE3
+# 107         (h,a)               A
+# 108         (h,2a)              2A
+# 109         (h,3a)              3A
+# #110         (Unassigned)        -
+# 111         (h,2p)              2P
+# 112         (h,pa)              P+A
+# 113         (h,t2a)             T+2A
+# 114         (h,d2a)             D+2A
+# 115         (h,pd)              P+D
+# 116         (h,pt)              P+T
+# 117         (h,da)              D+A
+# #118-119     (Unassigned)        -
+# #121-150     (Unassigned)        -
+# 151         (h,RES)             -
+# 152         (h,5n)              5N
+# 153         (h,6n)              6N
+# 154         (h,2nt)             2N+T
+# 155         (h,ta)              T+A
+# 156         (h,4np)             4N+P
+# 157         (h,3nd)             3N+D
+# 158         (h,n'da)            -
+# 159         (h,2npa)            2N+P+A
+# 160         (h,7n)              7N
+# 161         (h,8n)              8N
+# 162         (h,5np)             5N+P
+# 163         (h,6np)             6N+P
+# 164         (h,7np)             7N+P
+# 165         (h,4na)             4N+A
+# 166         (h,5na)             5N+A
+# 167         (h,6na)             6N+A
+# 168         (h,7na)             7N+A
+# 169         (h,4nd)             4N+D
+# 170         (h,5nd)             5N+D
+# 171         (h,6nd)             6N+D
+# 172         (h,3nt)             3N+T
+# 173         (h,4nt)             4N+T
+# 174         (h,5nt)             5N+T
+# 175         (h,6nt)             6N+T
+# 176         (h,2nh)             2N+HE3
+# 177         (h,3nh)             3N+HE3
+# 178         (h,4nh)             4N+HE3
+# 179         (h,3n2p)            3N+2P
+# 180         (h,3n2a)            3N+2
+# 181         (h,3npa)            3N+P+A
+# 182         (h,dt)              D+T
+# 183         (h,n'pd)            -
+# 184         (h,n'pt)            -
+# 185         (h,n'dt)            -
+# 186         (h,n'ph)            -
+# 187         (h,n'dh)            -
+# 188         (h,n'th)            -
+# 189         (h,n'ta)            -  
+# 190         (h,2n2p)            2N+2P
+# 191         (h,ph)              P+HE3
+# 192         (h,dh)              D+HE
+# 193         (h,ha)              HE+A
+# 194         (h,4n2p)            4N+2P
+# 195         (h,4n2a)            4N+2a 
+# 196         (h,4npa)            4N+P+A
+# 197         (h,3p)              3P
+# 198         (h,n'3p)            -
+# 199         (h,3n2pa)           3N+2P+A
+# 200         (h,5n2p)            5N+2P
+# 201         (h,xn)              X+N
+# 202         (h,xg)              X+G
+# 203         (h,xp)              X+P
+# 204         (h,xd)              X+D
+# 205         (h,xt)              X+D
+# 206         (h,xh)              X+HE3
+# 207         (h,xa)              X+A

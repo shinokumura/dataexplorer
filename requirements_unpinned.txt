@@ -1,0 +1,7 @@
+dash
+dash-bootstrap-components
+dash-extensions
+numpy
+pandas
+plotly
+urllib3
