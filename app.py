@@ -16,9 +16,9 @@ import dash_bootstrap_components as dbc
 app = dash.Dash(
     __name__,
     external_stylesheets=[dbc.themes.FLATLY],
-    # url_base_pathname="/dataexplorer/",  # if DEVENV
-    routes_pathname_prefix='/', # if Prod
-    requests_pathname_prefix='/dataexplorer/', # if Prod
+    url_base_pathname="/dataexplorer/",  # if DEVENV
+    # routes_pathname_prefix='/', # if Prod
+    # requests_pathname_prefix='/dataexplorer/', # if Prod
     suppress_callback_exceptions=True,
     meta_tags=[
         {
@@ -30,8 +30,8 @@ app = dash.Dash(
     ],
 )
 
-server = app.server   # for PROD/INT env
-app.title = "LIBRARIES-2021 Data Explorer"
+# server = app.server   # for PROD/INT env
+# app.title = "LIBRARIES-2021 Data Explorer"
 
-# if __name__ == '__main__':
-#     app.run_server(debug=True, use_reloader=True)
+if __name__ == '__main__':
+    app.run_server(debug=True, use_reloader=True)
