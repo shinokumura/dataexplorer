@@ -62,7 +62,7 @@ def read_libfy(nuclide, inc_pt, mt, energy, fy_type):
                 en,
                 ".",
                 lib,
-                ".dat"
+                ".txt"
             ]
         )
 

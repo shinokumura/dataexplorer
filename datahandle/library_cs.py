@@ -41,7 +41,7 @@ def read_libs(nuclide, slct_reac, mt, groupwise):
                 )
                 else ".",
                 lib,
-                ".dat"
+                ".txt"
             ]
         )
 
@@ -71,7 +71,7 @@ def read_resid_prod_lib(nuclide, inc_pt, rp_elem, rp_mass):
     libfiles = []
     for lib in lib_list:
         path = "".join([LIB_PATH, inc_pt, "/", nuclide, "/", lib, "/tables/residual/"])
-        lfname = "".join([path, inc_pt, "-", nuclide, "-rp", rp_z, rp_mass, ".", lib, ".dat"])
+        lfname = "".join([path, inc_pt, "-", nuclide, "-rp", rp_z, rp_mass, ".", lib, ".txt"])
 
         if os.path.exists(lfname):
             # Library file name list for download
@@ -158,7 +158,7 @@ def read_libs_lib(nuclide, slct_mt_df, slct_lib, groupwise):
                         )
                         else ".",
                         lib,
-                        ".dat"
+                        ".txt"
                     ]
                 )
                 if os.path.exists(lfname):
