@@ -1,6 +1,6 @@
 import os
 
-DEVENV = True
+DEVENV = False
 
 if DEVENV:
     DATA_ROOT_FOLDER = "/Users/okumuras/Documents/nucleardata/libraries/"
