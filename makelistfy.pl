@@ -55,11 +55,11 @@ sub make_yalist{
 	    }
 	}
 	
-	if ($zz == 0 & $aa !=0){
+	if ($zz == 0 && $aa !=0){
 	    open(OUTA, ">> $outfile_a");
 	    printf OUTA  ("%-60s %6d  %11.5E %11.5E\n",$basename, $pt[4], $en[3], $en[6]);
 	}
-	elsif ($zz > 0 & $aa >0){
+	elsif ($zz > 0 && $aa >0){
 	    open(OUTZA, ">> $outfile_za");
 	    printf OUTZA ("%-60s %6d  %11.5E %11.5E\n",$basename, $pt[4], $en[3], $en[6]);
 	}

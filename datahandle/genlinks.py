@@ -15,7 +15,7 @@ import zipfile
 from dash_extensions.snippets import send_bytes
 from urllib.parse import quote as urlquote
 
-from config import LIB_PATH, EXP_PATH, DATA_ROOT_FOLDER
+from config import EXP_PATH, DATA_ROOT_FOLDER
 
 
 def list_libfiles(libfiles):
@@ -100,7 +100,6 @@ def list_exfiles(exfiles, slctd_tab):
             )
 
         a = html.A(ef, download=ef, href=fullpath, target="_blank")
-        # a = dcc.send_file(fullpath)
         exflinks.append(a)
         exflinks.append(html.Br())
 

@@ -13,13 +13,6 @@ import os
 from datahandle.list import LIB_LIST_FY
 from config import LIB_PATH_FY
 
-# pd.reset_option('display.max_columns')
-# pd.set_option('display.max_colwidth', None)
-# pd.set_option('display.max_columns', None)
-# pd.set_option('display.max_rows', None)
-# pd.set_option('max_colwidth', None)
-# pd.set_option('display.width', 1200)
-
 # ------------------------------------------------------------------------------
 # APP4: Fission Yield
 #
@@ -86,12 +79,10 @@ def read_libfy(nuclide, inc_pt, mt, energy, fy_type):
 
         # create Y(A) table
         libya_df = create_libYA(libfy_df, fy_type)
-        print("lib exist")
 
     else:
         libfy_df = pd.DataFrame()
         libya_df = pd.DataFrame()
-        print("no lib")
 
     if liblist:
         libfiles = [i[0] for i in liblist]

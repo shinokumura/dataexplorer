@@ -6,6 +6,10 @@
 #
 # Contact:    nds.contact-point@iaea.org
 #
+# Change logs: 
+#    First release: 2021-08-20
+#    Update libraries: 2022-09-05, JENDL4.0 and TENDL2019 have been replced by JENDL5.0 and TENDL2021
+#
 ####################################################################
 
 from dash import dcc
@@ -56,10 +60,10 @@ There are standard colours for the data libraries:
 
 * ENDF/B-VIII.0: blue
 * JEFF-3.3: red
-* JENDL-4.0: green
+* JENDL-5.0: green
 * CENDL3.2: yellow
 * IRDFF: grey
-* TENDL-2019: black
+* TENDL-2021: black
 
 
 **Experimental data:**

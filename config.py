@@ -5,7 +5,7 @@ DEVENV = False
 if DEVENV:
     DATA_ROOT_FOLDER = "/Users/okumuras/Documents/nucleardata/libraries/"
     MT_PATH  = "datahandle/MT.dat"
-    
+
 else:
     DATA_ROOT_FOLDER = "/srv/data/dataexplorer/"
     MT_PATH  = "/srv/www/exforpyplot/datahandle/MT.dat"

@@ -27,7 +27,7 @@ toast = html.Div(
             dbc.Toast(
                 [html.Div(manual)],
                 id="toast",
-                header="Tips for LIBRARIES-2021 Data Explorer",
+                header="Tips for LIBRARIES-2022 Data Explorer",
                 icon="primary",
                 dismissable=True,
                 style={
@@ -56,7 +56,7 @@ navbar = dbc.Navbar(
         ),
         dbc.Col(
             dbc.NavbarBrand(
-                "LIBRARIES-2021 Data Explorer", href="https://nds.iaea.org/talys"
+                "LIBRARIES-2022 Data Explorer", href="https://nds.iaea.org/talys"
             )
         ),
         toast,
@@ -116,14 +116,14 @@ app.layout = html.Div(
         html.P(
             [
                 "This chart was made with the data from the ",
-                html.A("LIBRARIES-2021 package.", href="https://nds.iaea.org/talys", className="text-dark"),
+                html.A("LIBRARIES-2022 package.", href="https://nds.iaea.org/talys", className="text-dark"),
             ], className="text-dark"
         ),
         dbc.Row(
             dbc.Col(
                 html.Div(
                     [
-                    "Copyright 2021, International Atomic Energy Agency - ",
+                    "Copyright 2022, International Atomic Energy Agency - ",
                     html.A("Nuclear Data Section.", href="https://nds.iaea.org/", className="text-dark"),
                     html.Br(),
                     html.A("Terms of use.", href="https://nucleus.iaea.org/Pages/Others/Terms-Of-Use.aspx", className="text-dark"),

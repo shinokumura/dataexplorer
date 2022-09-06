@@ -38,7 +38,7 @@ def read_exfy_a(nuclide, inc_pt, mt, ee, nn):
 
         exname = fnmatch.filter(os.listdir(path), fmt)
         exfiles += exname
-
+    print(path,exfiles)
 
     if exfiles:
         exya_df = create_exfy(path, exfiles)  # all included both A==0 and Z ==0

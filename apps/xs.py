@@ -194,6 +194,7 @@ layout = (
                 id="main_graph",
                 config={
                     "displayModeBar": True,
+                    'queueLength':5,
                     "scrollZoom": True,
                     "modeBarButtonsToAdd": ["drawline", "drawopenpath", "eraseshape"],
                     "modeBarButtonsToRemove": ["lasso2d"],
