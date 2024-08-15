@@ -110,7 +110,7 @@ def create_indexdf(listfile, min_einc, max_einc):
         )
         index_df[["inc", "target", "mt", "author", "entry", "tmp"]] = index_df[
             "filename"
-        ].str.split("[-]", 5, expand=True)
+        ].str.split("[-]", n=5, expand=True)
         index_df["year"] = index_df["tmp"].str[10:14]
         index_df = index_df.astype(
             {"entry": "object", "einc": "float64", "de": "float64", "points": "int"}

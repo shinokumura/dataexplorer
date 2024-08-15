@@ -73,7 +73,7 @@ app.layout = html.Div(
                 dbc.NavItem(
                     dbc.NavLink(
                         "Cross Section", 
-                        href="/dataexplorer/xs", 
+                        href="/dataexplorer-2022/xs",
                         className="text-primary"
                     ),
                     id="nav1",
@@ -82,7 +82,7 @@ app.layout = html.Div(
                 dbc.NavItem(
                     dbc.NavLink(
                         "Multiple Cross Sections (Libs. only)",
-                        href="/dataexplorer/libs",
+                        href="/dataexplorer-2022/libs",
                         className="text-primary",
                     ),
                     id="nav2",
@@ -91,7 +91,7 @@ app.layout = html.Div(
                 dbc.NavItem(
                     dbc.NavLink(
                         "Residual Production Cross Section",
-                        href="/dataexplorer/residual",
+                        href="/dataexplorer-2022/residual",
                         className="text-primary",
                     ),
                     id="nav3",
@@ -100,7 +100,7 @@ app.layout = html.Div(
                 dbc.NavItem(
                     dbc.NavLink(
                         "Fission Yield", 
-                        href="/dataexplorer/fy", 
+                        href="/dataexplorer-2022/fy",
                         className="text-primary"
                     ),
                     id="nav4",
@@ -151,13 +151,13 @@ app.layout = html.Div(
     [Input("url", "pathname")],
 )
 def display_page(pathname):
-    if pathname == "/dataexplorer/xs":
+    if pathname == "/dataexplorer-2022/xs":
         return xs.layout, "tab-active", "tab", "tab", "tab"
-    elif pathname == "/dataexplorer/libs":
+    elif pathname == "/dataexplorer-2022/libs":
         return libs.layout, "tab", "tab-active", "tab", "tab"
-    elif pathname == "/dataexplorer/residual":
+    elif pathname == "/dataexplorer-2022/residual":
         return residual.layout, "tab", "tab", "tab-active", "tab"
-    elif pathname == "/dataexplorer/fy":
+    elif pathname == "/dataexplorer-2022/fy":
         return fy.layout, "tab", "tab", "tab", "tab-active"
     else:
         return xs.layout, "tab-active", "tab", "tab", "tab"
