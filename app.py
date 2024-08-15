@@ -21,7 +21,7 @@ if DEVENV:
     app = dash.Dash(
         __name__,
         external_stylesheets=[dbc.themes.FLATLY],
-        url_base_pathname="/dataexplorer/",
+        url_base_pathname="/dataexplorer-2022/",
         suppress_callback_exceptions=True,
         meta_tags=[
             {
@@ -32,12 +32,15 @@ if DEVENV:
             {"name": "viewport", "content": "width=device-width, initial-scale=1.0"},
         ],
     )
+    if __name__ == '__main__':
+        app.run_server(debug=True, use_reloader=True)
+
 else:
     app = dash.Dash(
         __name__,
         external_stylesheets=[dbc.themes.FLATLY],
         routes_pathname_prefix='/', # if Prod
-        requests_pathname_prefix='/dataexplorer/', # if Prod
+        requests_pathname_prefix='/dataexplorer-2022/', # if Prod
         suppress_callback_exceptions=True,
         meta_tags=[
             {
@@ -52,5 +55,5 @@ else:
     app.title = "LIBRARIES-2022 Data Explorer"
 
 
-if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=True)
+#if __name__ == '__main__':
+#    app.run_server(debug=True, use_reloader=True)
